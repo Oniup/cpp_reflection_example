@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.2)
-project(reflection_example)
+project(cpp_reflection_example)
 
-add_executable(reflection_example 
+add_executable(cpp_reflection_example 
     main.cpp
 )
 
-set_property(TARGET reflection_example PROPERTY CXX_STANDARD 20)
+set_property(TARGET cpp_reflection_example PROPERTY CXX_STANDARD 20)
